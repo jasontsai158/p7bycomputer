@@ -11,7 +11,7 @@ import CourseComponent from "./components/course-component";
 import PostCourseComponent from "./components/postcourse-Component";
 import EnrollComponent from "./components/enroll-component";
 
-// React 5.6.1的寫法,(與老師的一樣)// 是這樣子嗎?
+// React 5.6.1的寫法,(與老師的一樣)// anu more是不是你老師
 function App() {
   let [currentUser, setCurrentUser] = useState(AuthService.getCurrentUser());
 
